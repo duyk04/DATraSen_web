@@ -1,0 +1,102 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/* header */
+nav {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.logo-nav{
+    position: absolute;
+    left: 320px;
+}
+.nav-header {
+    
+}
+.nav-header .nav-menu {
+    display: flex;
+    position: absolute;
+    right: 240px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.nav-header .nav-menu .nav-menu-list {
+   margin:0 45px;
+   font-size: 16px;
+}
+.nav-menu-list>a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+/* section */
+.banner {
+    position: relative;
+}
+.banner-img .img{
+    width: 100%;
+}
+.banner .banner-content{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.banner-content .content-title{
+    font-size: 32px;
+}
+.banner-content .content-img{
+    margin-top: 10px;
+}
+.banner-content .content-describe{
+    width: 375px;
+    margin-top: 20px;
+}
+.content-button button{
+    width: 215px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #aabc44;
+    border: none;
+    font-size: 22px;
+}
+
+.product{
+    text-align: center;
+    background: url(../images/trang-chu/bgSanpham.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.product .title-product{
+    margin-top: 150px;
+    margin-bottom: 90px;
+    font-size: 22px;
+}
+
+.list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-item{
+    margin: 0px 30px;
+}
+.card-item .item-name{
+    margin-top: 20px;
+    font-size: 20px;
+}
