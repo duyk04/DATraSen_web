@@ -75,16 +75,28 @@ nav {
 }
 
 .product{
-    text-align: center;
-    background: url(../images/trang-chu/bgSanpham.png);
+    position: relative;
+    /* background: url(../images/trang-chu/bgSanpham.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 1000px; */
+}
+.product .product-background .img{
+    width: 100%;
+}
+.product .product-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .product .title-product{
     margin-top: 150px;
     margin-bottom: 90px;
     font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-item{
@@ -95,8 +107,51 @@ nav {
 }
 .card-item{
     margin: 0px 30px;
+    text-align: center;
 }
 .card-item .item-name{
     margin-top: 20px;
     font-size: 20px;
+}
+
+/* introduce */
+.introduce{
+    position: relative;
+}
+.introduce-background .img{
+    width: 100%;
+}
+.introduce .number-phone{
+    font-size: 30px;
+    font-weight: 600;
+    color: #aabc44;
+    position: absolute;
+    top: 33%;  
+    right: 4%;
+
+}
+.introduce .introduce-content{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+.introduce-content .introduce-describe{
+    width: 530px;
+    margin-top: 20px;
+}
+.introduce-button button{
+    width: 215px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #aabc44;
+    border: none;
+    font-size: 22px;
+}
+
+/* artist */
+.artist{
+    position: relative;
+}
+.artist-background .img{
+    width: 100%;
 }
