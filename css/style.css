@@ -90,7 +90,7 @@ nav {
     left: 0;
     right: 0;
 }
-.product .title-product{
+.product .product-title{
     margin-top: 150px;
     margin-bottom: 90px;
     font-size: 22px;
@@ -99,7 +99,7 @@ nav {
     align-items: center;
 }
 
-.list-item{
+.product-list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +138,7 @@ nav {
 .introduce-content .introduce-describe{
     width: 530px;
     margin-top: 20px;
+    text-align:justify;
 }
 .introduce-button button{
     width: 215px;
@@ -149,9 +150,40 @@ nav {
 }
 
 /* artist */
+
 .artist{
     position: relative;
 }
-.artist-background .img{
+.artist .artist-background .img{
     width: 100%;
+}
+.artist .artist-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.artist .artist-title{
+    margin-top: 150px;
+    margin-bottom: 90px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.artist-card{
+    width: 230px;
+    margin: 0px 20px;
+    text-align: center;
+}
+.artist-card .artist-name{
+    margin-top: 20px;
+    font-size: 20px;
 }
