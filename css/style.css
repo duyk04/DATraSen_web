@@ -248,5 +248,8 @@ nav {
 }
 .footer-content ul {
     margin-left: 140px;
-    width: 200px;
+    width: 240px;
+}
+.footer-content ul:nth-child(n+2) {
+    margin-top: 28px;
 }
