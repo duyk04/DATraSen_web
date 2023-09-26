@@ -1,0 +1,22 @@
+/* footer */
+.footer {
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.footer-content ul {
+    margin-left: 140px;
+    width: 260px;
+}
+.footer-content ul:nth-child(n+2) {
+    margin-top: 28px;
+}
+.footer-content ul:nth-child(n+2) li:nth-child(2) {
+    margin-top: 12px;
+}

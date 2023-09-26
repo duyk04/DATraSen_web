@@ -1,0 +1,39 @@
+/* header */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo-nav {
+    position: absolute;
+    left: 320px;
+}
+
+.nav-header {}
+
+.nav-header .nav-menu {
+    display: flex;
+    position: absolute;
+    right: 240px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.nav-header .nav-menu .nav-menu-list {
+    margin: 0 45px;
+    font-size: 16px;
+}
+
+.nav-menu-list>a {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}

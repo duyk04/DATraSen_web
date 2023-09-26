@@ -6,6 +6,13 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+:root{
+    --green:#aabc44;
+}
+a {
+    color: #000;
+}
+
 .w-100{
     width: 100%;
 }

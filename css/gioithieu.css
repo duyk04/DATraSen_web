@@ -1,0 +1,39 @@
+.banner{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+    top: 40%;
+    left:20%;
+}
+.banner-title p:first-child{
+    font-size: 36px;
+    color: #aabc44;
+}
+.banner-title p:last-child{
+    font-size: 58px;
+}
+/* content */
+.content{
+    background-image: url("../images/gioi-thieu/banner02.jpg");
+    width: 100%;
+    height: 1300px;
+    position: relative;
+}
+.content-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.content-box{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+.content-box p{
+    text-align: justify;
+    margin: 20px 0 20px 0;
+}
+
+
